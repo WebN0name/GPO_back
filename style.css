@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+#map {
+  height: 100%;
+}
+.controllers-wrapper {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  width: 100%;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.25rem #aaa;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: normal;
+  padding: 0.25rem 0.75rem;
+  text-decoration: none;
+}
+.btn:active {
+  background: #f5f5f5;
+}
+.controllers-wrapper #months {
+  border: 1px solid #aaa;
+  border-radius: 0.25rem;
+  color: #333;
+  margin: 0 0.25rem;
+  padding: 0.35rem 0.25rem;
+  box-shadow: 0 0 0.25rem #aaa;
+  width: 10rem;
+}
